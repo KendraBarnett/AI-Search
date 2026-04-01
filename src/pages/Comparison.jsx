@@ -7,6 +7,7 @@ import ComparisonTable from '../components/ComparisonTable'
 import Breadcrumbs from '../components/Breadcrumbs'
 import DateStamp from '../components/DateStamp'
 import StatCard from '../components/StatCard'
+import SourceLink from '../components/SourceLink'
 import { createArticleSchema, createFAQSchema, createBreadcrumbSchema, createSpeakableSchema } from '../data/schema'
 
 const breadcrumbs = [
@@ -75,7 +76,7 @@ export default function Comparison() {
 
       <section className="my-10">
         <h2 className="text-2xl font-bold text-brand-black mb-4">The Source Selection Gap</h2>
-        <p className="text-brand-dark leading-relaxed mb-6 key-answer">Research from Passionfruit (2025) and Semrush (2025) reveals a stark disconnect between traditional search rankings and AI search citations. The sources AI platforms cite are largely independent of Google's ranking signals.</p>
+        <p className="text-brand-dark leading-relaxed mb-6 key-answer">Research from <SourceLink name="Passionfruit" /> (2025) and <SourceLink name="Semrush" /> (2025) reveals a stark disconnect between traditional search rankings and AI search citations. The sources AI platforms cite are largely independent of Google's ranking signals.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 my-6">
           <StatCard value="80%" label="AI Sources Not in Google Top Results" description="Sources cited in AI search don't appear in Google's traditional top results" source="Passionfruit, 2025" variant="neutral" />
@@ -84,7 +85,7 @@ export default function Comparison() {
           <StatCard value="~90%" label="ChatGPT Cites Position 21+" description="ChatGPT-cited pages rank position 21+ in Google" source="Semrush, 2025" variant="neutral" />
         </div>
 
-        <p className="text-brand-dark leading-relaxed">Only <strong>11% of domains</strong> are cited by both ChatGPT and Perplexity (Passionfruit, 2025). This means brands cannot rely on a single AI optimization strategy — each platform has distinct citation preferences and retrieval mechanisms.</p>
+        <p className="text-brand-dark leading-relaxed">Only <strong>11% of domains</strong> are cited by both ChatGPT and Perplexity (<SourceLink name="Passionfruit" />, 2025). This means brands cannot rely on a single AI optimization strategy — each platform has distinct citation preferences and retrieval mechanisms.</p>
       </section>
 
       <section className="my-10">

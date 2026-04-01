@@ -3,6 +3,7 @@ import SEOHead from '../components/SEOHead'
 import SchemaMarkup from '../components/SchemaMarkup'
 import TLDRBlock from '../components/TLDRBlock'
 import FAQSection from '../components/FAQSection'
+import SourceLink from '../components/SourceLink'
 import ComparisonTable from '../components/ComparisonTable'
 import Breadcrumbs from '../components/Breadcrumbs'
 import DateStamp from '../components/DateStamp'
@@ -101,7 +102,7 @@ export default function SEOvsAIO() {
           </div>
         </div>
 
-        <p className="text-brand-dark leading-relaxed mb-4 key-answer">Only <strong>16% of brands</strong> systematically track AI search performance. A new tooling landscape is emerging: Semrush AI Visibility, Ahrefs Brand Radar, and Passionfruit Labs now offer AI-specific tracking capabilities.</p>
+        <p className="text-brand-dark leading-relaxed mb-4 key-answer">Only <strong>16% of brands</strong> systematically track AI search performance. A new tooling landscape is emerging: <SourceLink name="Semrush" /> AI Visibility, <SourceLink name="Ahrefs" /> Brand Radar, and <SourceLink name="Passionfruit" /> Labs now offer AI-specific tracking capabilities.</p>
       </section>
 
       <section className="my-10">

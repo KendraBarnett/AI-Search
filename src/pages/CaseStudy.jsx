@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import SEOHead from '../components/SEOHead'
+import SourceLink from '../components/SourceLink'
 import SchemaMarkup from '../components/SchemaMarkup'
 import TLDRBlock from '../components/TLDRBlock'
 import ComparisonTable from '../components/ComparisonTable'
@@ -109,7 +110,7 @@ export default function CaseStudy() {
           </li>
           <li className="flex items-start gap-3">
             <span className="text-brand-dark font-bold">4.</span>
-            <span><strong>Consistent with Semrush's finding</strong> — <Link to="/ctr-crisis" className="text-brand-black underline">4.4x conversion rate</Link> across 500+ high-value topics</span>
+            <span><strong>Consistent with <SourceLink name="Semrush" />'s finding</strong> — <Link to="/ctr-crisis" className="text-brand-black underline">4.4x conversion rate</Link> across 500+ high-value topics</span>
           </li>
         </ul>
       </section>

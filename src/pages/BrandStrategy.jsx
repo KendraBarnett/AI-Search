@@ -3,6 +3,7 @@ import SEOHead from '../components/SEOHead'
 import SchemaMarkup from '../components/SchemaMarkup'
 import TLDRBlock from '../components/TLDRBlock'
 import FAQSection from '../components/FAQSection'
+import SourceLink from '../components/SourceLink'
 import ComparisonTable from '../components/ComparisonTable'
 import Breadcrumbs from '../components/Breadcrumbs'
 import DateStamp from '../components/DateStamp'
@@ -120,7 +121,7 @@ export default function BrandStrategy() {
             <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">4</span>
             <div>
               <h3 className="font-semibold text-brand-dark mb-1">Track New KPIs</h3>
-              <p className="text-brand-dark">Set up tracking with Semrush AI Visibility, Ahrefs Brand Radar, or Passionfruit Labs. Monitor citation frequency, share of voice, and AI-referred conversion rate alongside traditional SEO metrics.</p>
+              <p className="text-brand-dark">Set up tracking with <SourceLink name="Semrush" /> AI Visibility, <SourceLink name="Ahrefs" /> Brand Radar, or <SourceLink name="Passionfruit" /> Labs. Monitor citation frequency, share of voice, and AI-referred conversion rate alongside traditional SEO metrics.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">

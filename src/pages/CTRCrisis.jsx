@@ -6,6 +6,7 @@ import FAQSection from '../components/FAQSection'
 import Breadcrumbs from '../components/Breadcrumbs'
 import DateStamp from '../components/DateStamp'
 import StatCard from '../components/StatCard'
+import SourceLink from '../components/SourceLink'
 import { createArticleSchema, createFAQSchema, createBreadcrumbSchema, createSpeakableSchema } from '../data/schema'
 
 const breadcrumbs = [
@@ -73,7 +74,7 @@ export default function CTRCrisis() {
         <div className="mt-4 text-brand-dark leading-relaxed space-y-3">
           <p><strong>Methodology:</strong> 3,119 informational queries, 42 client organizations, 25.1 million organic impressions, tracked June 2024–September 2025.</p>
           <p className="key-answer">Even queries <strong>without</strong> AI Overviews saw a <strong>41% CTR decline</strong> — suggesting broader behavioral shifts beyond just the direct displacement effect of AI Overviews.</p>
-          <p>Corroborated by Pew Research and Ahrefs independently. Cited by Forbes, Inc., eMarketer, Search Engine Land.</p>
+          <p>Corroborated by <SourceLink name="Pew Research" /> and <SourceLink name="Ahrefs" /> independently. Cited by Forbes, Inc., eMarketer, Search Engine Land.</p>
         </div>
       </section>
 
@@ -110,7 +111,7 @@ export default function CTRCrisis() {
         <div className="mt-4 text-brand-dark leading-relaxed space-y-3">
           <p>Research by Kyle Byers (Director of Growth Marketing) and Rachel Handley. Analyzed 500+ high-value digital marketing and SEO topics.</p>
           <p className="key-answer">AI search visitors arrive <strong>pre-qualified</strong> — they've already compared options via the AI. AI responses function like personal word-of-mouth recommendations, carrying higher trust and purchase intent.</p>
-          <p>Semrush projects AI channels could drive equivalent economic value to traditional search by end of 2027.</p>
+          <p><SourceLink name="Semrush" /> projects AI channels could drive equivalent economic value to traditional search by end of 2027.</p>
           <p><strong>Caveat:</strong> Measured on digital marketing topics — may not generalize perfectly across all verticals.</p>
         </div>
       </section>
