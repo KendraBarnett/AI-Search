@@ -1,0 +1,15 @@
+# Traditional Search vs AI Search
+
+> A comprehensive resource on the differences between traditional search (SEO) and AI search (AIO), including data on CTR impact, conversion rates, and optimization strategies for brands.
+
+## Pages
+
+- [How Traditional Search Works](/traditional-search): The crawl-index-rank-display model, how brands win with SEO, and the HubSpot case study.
+- [How AI Search Works](/ai-search): RAG architecture, vector embeddings, platform-specific retrieval differences (Perplexity vs ChatGPT vs Google AI Overviews).
+- [Traditional Search vs AI Search Comparison](/comparison): Key technical distinctions across query processing, source selection, personalization, content format preferences.
+- [The Landscape Shift](/landscape-shift): Market data on AI search adoption — 37% of consumers start with AI tools, Google below 90% share, Gartner's -25% prediction.
+- [SEO vs AIO](/seo-vs-aio): The optimization divide — goals, signals, style, metrics, and strategic tensions between the two approaches.
+- [The CTR Crisis](/ctr-crisis): Seer Interactive data on -61% organic CTR, -68% paid CTR, +35% lift when cited, 93% zero-click in AI Mode, 4.4x conversion rate from AI visitors.
+- [Case Study: AcmeCRM](/case-study): Hypothetical model showing how SEO + AIO strategy increases conversions 9% despite 56% SERP traffic loss.
+- [What This Means for Brands](/brand-strategy): The tri-modal ecosystem, new KPIs for the AI era, and strategic recommendations.
+- [Glossary](/glossary): Definitions of key terms — RAG, AIO, GEO, Entity Clarity, Share of Model, Citation Frequency.

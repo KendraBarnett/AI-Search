@@ -1,0 +1,87 @@
+export const stats = {
+  organicCTRDrop: {
+    value: '-61%',
+    label: 'Organic CTR Drop',
+    description: 'Organic CTR dropped from 1.76% to 0.61% for queries with AI Overviews',
+    source: 'Seer Interactive, September 2025 update, published November 2025',
+    methodology: '3,119 informational queries, 42 client organizations, 25.1 million organic impressions, tracked June 2024–September 2025',
+  },
+  paidCTRDrop: {
+    value: '-68%',
+    label: 'Paid CTR Drop',
+    description: 'Paid CTR fell from 19.7% to 6.34% for AI Overview queries',
+    source: 'Seer Interactive, September 2025',
+  },
+  citedCTRLift: {
+    value: '+35%',
+    label: 'Organic CTR Lift When Cited',
+    description: 'Brands cited within AI Overviews see 35% higher organic CTR',
+    source: 'Seer Interactive, November 2025',
+  },
+  paidCTRLiftCited: {
+    value: '+91%',
+    label: 'Paid CTR Lift When Cited',
+    description: 'Brands cited within AI Overviews see 91% higher paid CTR',
+    source: 'Seer Interactive, November 2025',
+  },
+  zeroClick: {
+    value: '93%',
+    label: 'Zero-Click in AI Mode',
+    description: '93% of searches in Google AI Mode result in zero clicks',
+    source: 'Semrush, September 2025',
+  },
+  conversionRate: {
+    value: '4.4x',
+    label: 'Higher Conversion Rate',
+    description: 'AI search visitors convert at 4.4x the rate of traditional organic visitors',
+    source: 'Semrush, published June 9, 2025',
+  },
+  aiStartSearch: {
+    value: '37%',
+    label: 'Start with AI Tools',
+    description: '37% of consumers now start searches with AI tools',
+    source: 'Eight Oh Two, January 2026',
+  },
+  chatGPTQueries: {
+    value: '1B+',
+    label: 'Daily ChatGPT Queries',
+    description: 'Over 1 billion ChatGPT queries per day with 800M+ weekly active users',
+    source: 'OpenAI / Superlines, 2026',
+  },
+  aiOverviewUsers: {
+    value: '2B',
+    label: 'Monthly AI Overview Users',
+    description: '2 billion monthly users reached by Google AI Overviews across 200+ countries',
+    source: 'SE Ranking / ALM Corp',
+  },
+  googleShareDrop: {
+    value: '<90%',
+    label: 'Google Market Share',
+    description: 'Google dropped below 90% search market share for the first time',
+    source: 'StatCounter, March 2025',
+  },
+  gartnerPrediction: {
+    value: '-25%',
+    label: 'Traditional Search Volume Decline',
+    description: 'Gartner predicts a 25% drop in traditional search volume',
+    source: 'Gartner, 2026',
+  },
+  position1ClickDrop: {
+    value: '-32%',
+    label: 'Fewer Clicks from Position #1',
+    description: 'Even the most coveted search position sees significant click decline with AI Overviews',
+    source: 'First Page Sage / GrowthSRC',
+  },
+  sourceSelectionGap: {
+    value: '80%',
+    label: 'AI Sources Not in Google Top Results',
+    description: '80% of sources cited in AI search don\'t appear in Google\'s traditional top results',
+    source: 'Passionfruit, 2025',
+  },
+  platformOverlap: {
+    value: '11%',
+    label: 'Domain Overlap',
+    description: 'Only 11% of domains are cited by both ChatGPT and Perplexity',
+    source: 'Passionfruit, 2025',
+  },
+}
