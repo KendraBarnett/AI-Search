@@ -19,15 +19,15 @@ export default function Layout({ children }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <div className="min-h-screen flex flex-col bg-stone-50 text-gray-900">
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <div className="min-h-screen flex flex-col bg-brand-surface text-brand-dark">
+      <header className="bg-white border-b border-brand-light sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <Link to="/" className="text-lg font-bold text-teal-800 no-underline whitespace-nowrap">
+            <Link to="/" className="text-lg font-bold text-brand-black no-underline whitespace-nowrap">
               Search vs AI Search
             </Link>
             <button
-              className="lg:hidden p-2 text-gray-600 hover:text-gray-900 cursor-pointer"
+              className="lg:hidden p-2 text-brand-mid hover:text-brand-black cursor-pointer"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Toggle navigation menu"
               aria-expanded={menuOpen}
@@ -41,15 +41,15 @@ export default function Layout({ children }) {
               </svg>
             </button>
             <nav className="hidden lg:block" aria-label="Main navigation">
-              <ul className="flex items-center gap-1">
+              <ul className="flex items-center">
                 {navItems.map((item) => (
                   <li key={item.path}>
                     <Link
                       to={item.path}
-                      className={`px-3 py-2 rounded-md text-sm font-medium no-underline transition-colors ${
+                      className={`px-3 py-2 rounded-md text-sm font-medium no-underline transition-colors text-center whitespace-nowrap ${
                         location.pathname === item.path
-                          ? 'bg-teal-100 text-teal-800'
-                          : 'text-gray-600 hover:text-teal-700 hover:bg-teal-50'
+                          ? 'bg-brand-accent text-brand-black'
+                          : 'text-brand-dark hover:text-brand-black hover:bg-gray-100'
                       }`}
                     >
                       {item.label}
@@ -61,7 +61,7 @@ export default function Layout({ children }) {
           </div>
         </div>
         {menuOpen && (
-          <nav className="lg:hidden border-t border-gray-200 bg-white" aria-label="Mobile navigation">
+          <nav className="lg:hidden border-t border-brand-light bg-white" aria-label="Mobile navigation">
             <ul className="px-4 py-2 space-y-1">
               {navItems.map((item) => (
                 <li key={item.path}>
@@ -70,8 +70,8 @@ export default function Layout({ children }) {
                     onClick={() => setMenuOpen(false)}
                     className={`block px-3 py-2 rounded-md text-sm font-medium no-underline ${
                       location.pathname === item.path
-                        ? 'bg-teal-100 text-teal-800'
-                        : 'text-gray-600 hover:text-teal-700 hover:bg-teal-50'
+                        ? 'bg-brand-accent text-brand-black'
+                        : 'text-brand-dark hover:text-brand-black hover:bg-gray-100'
                     }`}
                   >
                     {item.label}
@@ -87,7 +87,7 @@ export default function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-gray-800 text-gray-300 mt-16">
+      <footer className="bg-brand-black text-brand-mid mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -97,22 +97,22 @@ export default function Layout({ children }) {
             <div>
               <h3 className="text-white font-semibold mb-3">Key Topics</h3>
               <ul className="space-y-1 text-sm">
-                <li><Link to="/ai-search" className="hover:text-white no-underline text-gray-300">How AI Search Works</Link></li>
-                <li><Link to="/ctr-crisis" className="hover:text-white no-underline text-gray-300">The CTR Crisis</Link></li>
-                <li><Link to="/seo-vs-aio" className="hover:text-white no-underline text-gray-300">SEO vs AIO</Link></li>
-                <li><Link to="/brand-strategy" className="hover:text-white no-underline text-gray-300">Brand Strategy</Link></li>
+                <li><Link to="/ai-search" className="hover:text-brand-accent no-underline text-brand-mid">How AI Search Works</Link></li>
+                <li><Link to="/ctr-crisis" className="hover:text-brand-accent no-underline text-brand-mid">The CTR Crisis</Link></li>
+                <li><Link to="/seo-vs-aio" className="hover:text-brand-accent no-underline text-brand-mid">SEO vs AIO</Link></li>
+                <li><Link to="/brand-strategy" className="hover:text-brand-accent no-underline text-brand-mid">Brand Strategy</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="text-white font-semibold mb-3">Resources</h3>
               <ul className="space-y-1 text-sm">
-                <li><Link to="/glossary" className="hover:text-white no-underline text-gray-300">Glossary</Link></li>
-                <li><Link to="/comparison" className="hover:text-white no-underline text-gray-300">Side-by-Side Comparison</Link></li>
-                <li><Link to="/case-study" className="hover:text-white no-underline text-gray-300">Case Study</Link></li>
+                <li><Link to="/glossary" className="hover:text-brand-accent no-underline text-brand-mid">Glossary</Link></li>
+                <li><Link to="/comparison" className="hover:text-brand-accent no-underline text-brand-mid">Side-by-Side Comparison</Link></li>
+                <li><Link to="/case-study" className="hover:text-brand-accent no-underline text-brand-mid">Case Study</Link></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
+          <div className="border-t border-brand-dark mt-8 pt-8 text-sm text-center">
             <p>Content based on research from Seer Interactive, Semrush, Passionfruit, and other industry sources.</p>
           </div>
         </div>

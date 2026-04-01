@@ -55,7 +55,7 @@ export default function SEOvsAIO() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">SEO vs AIO: The Optimization Divide</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">SEO vs AIO: The Optimization Divide</h1>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -79,20 +79,20 @@ export default function SEOvsAIO() {
       />
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Strategic Tension for Content Teams</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Strategic Tension for Content Teams</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">SEO Style</h3>
-            <ul className="space-y-1 text-gray-700 list-disc list-inside">
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <h3 className="text-lg font-semibold text-brand-dark mb-2">SEO Style</h3>
+            <ul className="space-y-1 text-brand-dark list-disc list-inside">
               <li>Keyword-optimized</li>
               <li>Comprehensive and thorough</li>
               <li>Link-worthy (earns backlinks)</li>
               <li>Long-form depth</li>
             </ul>
           </div>
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">AIO Style</h3>
-            <ul className="space-y-1 text-gray-700 list-disc list-inside">
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <h3 className="text-lg font-semibold text-brand-dark mb-2">AIO Style</h3>
+            <ul className="space-y-1 text-brand-dark list-disc list-inside">
               <li>Answer-first formatting</li>
               <li>Extraction-ready passages</li>
               <li>Concise, well-structured</li>
@@ -101,41 +101,41 @@ export default function SEOvsAIO() {
           </div>
         </div>
 
-        <p className="text-gray-700 leading-relaxed mb-4 key-answer">Only <strong>16% of brands</strong> systematically track AI search performance. A new tooling landscape is emerging: Semrush AI Visibility, Ahrefs Brand Radar, and Passionfruit Labs now offer AI-specific tracking capabilities.</p>
+        <p className="text-brand-dark leading-relaxed mb-4 key-answer">Only <strong>16% of brands</strong> systematically track AI search performance. A new tooling landscape is emerging: Semrush AI Visibility, Ahrefs Brand Radar, and Passionfruit Labs now offer AI-specific tracking capabilities.</p>
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">New Metrics for AIO</h2>
-        <ul className="space-y-3 text-gray-700">
+        <h2 className="text-2xl font-bold text-brand-black mb-4">New Metrics for AIO</h2>
+        <ul className="space-y-3 text-brand-dark">
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">1.</span>
+            <span className="text-brand-dark font-bold mt-1">1.</span>
             <span><strong><dfn>Citation frequency</dfn></strong> across AI platforms — how often your brand is referenced in AI-generated responses</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">2.</span>
+            <span className="text-brand-dark font-bold mt-1">2.</span>
             <span><strong>Share of voice</strong> in AI answers — your visibility relative to competitors in AI responses</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">3.</span>
+            <span className="text-brand-dark font-bold mt-1">3.</span>
             <span><strong>Brand mention rate</strong> in AI responses — frequency of brand mentions across platforms</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">4.</span>
+            <span className="text-brand-dark font-bold mt-1">4.</span>
             <span><strong>Source authority / citation quality</strong> — the quality and context of your citations</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">5.</span>
+            <span className="text-brand-dark font-bold mt-1">5.</span>
             <span><strong>AI-referred conversion rate</strong> — conversion rate of traffic arriving from AI platforms</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold mt-1">6.</span>
+            <span className="text-brand-dark font-bold mt-1">6.</span>
             <span><strong><dfn>Share of Model (SOM)</dfn></strong> — percentage of times cited for priority topics vs. competitors</span>
           </li>
         </ul>
       </section>
 
-      <p className="text-gray-600 my-8">
-        See the <Link to="/ctr-crisis" className="text-teal-700 underline">CTR crisis data</Link> for why AIO matters now, or the <Link to="/case-study" className="text-teal-700 underline">AcmeCRM case study</Link> for a concrete example of SEO + AIO strategy in action.
+      <p className="text-brand-mid my-8">
+        See the <Link to="/ctr-crisis" className="text-brand-black underline">CTR crisis data</Link> for why AIO matters now, or the <Link to="/case-study" className="text-brand-black underline">AcmeCRM case study</Link> for a concrete example of SEO + AIO strategy in action.
       </p>
 
       <FAQSection faqs={faqs} />

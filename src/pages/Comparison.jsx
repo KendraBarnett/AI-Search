@@ -52,7 +52,7 @@ export default function Comparison() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Traditional Search vs AI Search Comparison</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">Traditional Search vs AI Search Comparison</h1>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -74,8 +74,8 @@ export default function Comparison() {
       />
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Source Selection Gap</h2>
-        <p className="text-gray-700 leading-relaxed mb-6 key-answer">Research from Passionfruit (2025) and Semrush (2025) reveals a stark disconnect between traditional search rankings and AI search citations. The sources AI platforms cite are largely independent of Google's ranking signals.</p>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Source Selection Gap</h2>
+        <p className="text-brand-dark leading-relaxed mb-6 key-answer">Research from Passionfruit (2025) and Semrush (2025) reveals a stark disconnect between traditional search rankings and AI search citations. The sources AI platforms cite are largely independent of Google's ranking signals.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 my-6">
           <StatCard value="80%" label="AI Sources Not in Google Top Results" description="Sources cited in AI search don't appear in Google's traditional top results" source="Passionfruit, 2025" variant="neutral" />
@@ -84,13 +84,13 @@ export default function Comparison() {
           <StatCard value="~90%" label="ChatGPT Cites Position 21+" description="ChatGPT-cited pages rank position 21+ in Google" source="Semrush, 2025" variant="neutral" />
         </div>
 
-        <p className="text-gray-700 leading-relaxed">Only <strong>11% of domains</strong> are cited by both ChatGPT and Perplexity (Passionfruit, 2025). This means brands cannot rely on a single AI optimization strategy — each platform has distinct citation preferences and retrieval mechanisms.</p>
+        <p className="text-brand-dark leading-relaxed">Only <strong>11% of domains</strong> are cited by both ChatGPT and Perplexity (Passionfruit, 2025). This means brands cannot rely on a single AI optimization strategy — each platform has distinct citation preferences and retrieval mechanisms.</p>
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Strategic Tension</h2>
-        <p className="text-gray-700 leading-relaxed mb-4 key-answer"><Link to="/seo-vs-aio" className="text-teal-700 underline">SEO</Link> rewards long-form comprehensive content; <Link to="/seo-vs-aio" className="text-teal-700 underline">AIO</Link> rewards concise extractable answers. These are competing demands for content teams.</p>
-        <p className="text-gray-700 leading-relaxed">The solution is comprehensive content with TL;DR summaries and FAQ schema that serve both systems — long-form depth for traditional search ranking, plus extraction-ready passages for AI citation. See the <Link to="/case-study" className="text-teal-700 underline">AcmeCRM case study</Link> for how this dual strategy works in practice.</p>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Strategic Tension</h2>
+        <p className="text-brand-dark leading-relaxed mb-4 key-answer"><Link to="/seo-vs-aio" className="text-brand-black underline">SEO</Link> rewards long-form comprehensive content; <Link to="/seo-vs-aio" className="text-brand-black underline">AIO</Link> rewards concise extractable answers. These are competing demands for content teams.</p>
+        <p className="text-brand-dark leading-relaxed">The solution is comprehensive content with TL;DR summaries and FAQ schema that serve both systems — long-form depth for traditional search ranking, plus extraction-ready passages for AI citation. See the <Link to="/case-study" className="text-brand-black underline">AcmeCRM case study</Link> for how this dual strategy works in practice.</p>
       </section>
 
       <FAQSection faqs={faqs} />

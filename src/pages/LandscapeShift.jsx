@@ -51,7 +51,7 @@ export default function LandscapeShift() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">The Landscape Shift</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">The Landscape Shift</h1>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -60,7 +60,7 @@ export default function LandscapeShift() {
       </TLDRBlock>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">The Numbers</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-6">The Numbers</h2>
         <div className="space-y-6">
           <StatCard value="37%" label="Start with AI Tools" description="37% of consumers now start searches with AI tools rather than traditional search engines." source="Eight Oh Two, January 2026" variant="neutral" />
           <StatCard value="1B+" label="Daily ChatGPT Queries" description="Over 1 billion ChatGPT queries per day, with 800M+ weekly active users as of April 2025." source="OpenAI / Superlines, 2026" variant="neutral" />
@@ -72,26 +72,26 @@ export default function LandscapeShift() {
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">What These Numbers Mean Together</h2>
-        <p className="text-gray-700 leading-relaxed mb-4 key-answer">This isn't early adoption — it's a structural shift in discovery behavior. The growth rates across platforms indicate that AI search is becoming the default starting point for a significant and growing segment of users.</p>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">What These Numbers Mean Together</h2>
+        <p className="text-brand-dark leading-relaxed mb-4 key-answer">This isn't early adoption — it's a structural shift in discovery behavior. The growth rates across platforms indicate that AI search is becoming the default starting point for a significant and growing segment of users.</p>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-6 mb-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">AI Overviews Expansion After March 2025 Core Update</h3>
-          <ul className="space-y-2 text-gray-700">
+        <div className="bg-white border border-brand-light rounded-lg p-6 mb-6">
+          <h3 className="text-xl font-semibold text-brand-dark mb-3">AI Overviews Expansion After March 2025 Core Update</h3>
+          <ul className="space-y-2 text-brand-dark">
             <li><strong>+528%</strong> in entertainment queries</li>
             <li><strong>+387%</strong> in restaurant queries</li>
             <li><strong>+381%</strong> in travel queries</li>
           </ul>
         </div>
 
-        <div className="bg-white border border-gray-200 rounded-lg p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">ChatGPT User Growth</h3>
-          <p className="text-gray-700 leading-relaxed"><strong>8x growth</strong> from October 2023 to April 2025 — from approximately 100M weekly active users to 800M+. This trajectory shows no signs of slowing, with AI search becoming embedded in daily workflows across consumer and enterprise contexts.</p>
+        <div className="bg-white border border-brand-light rounded-lg p-6">
+          <h3 className="text-xl font-semibold text-brand-dark mb-3">ChatGPT User Growth</h3>
+          <p className="text-brand-dark leading-relaxed"><strong>8x growth</strong> from October 2023 to April 2025 — from approximately 100M weekly active users to 800M+. This trajectory shows no signs of slowing, with AI search becoming embedded in daily workflows across consumer and enterprise contexts.</p>
         </div>
       </section>
 
-      <p className="text-gray-600 my-8">
-        For the business impact of this shift, see <Link to="/ctr-crisis" className="text-teal-700 underline">the CTR crisis data</Link>. For what brands should do about it, read <Link to="/brand-strategy" className="text-teal-700 underline">the brand strategy guide</Link>.
+      <p className="text-brand-mid my-8">
+        For the business impact of this shift, see <Link to="/ctr-crisis" className="text-brand-black underline">the CTR crisis data</Link>. For what brands should do about it, read <Link to="/brand-strategy" className="text-brand-black underline">the brand strategy guide</Link>.
       </p>
 
       <FAQSection faqs={faqs} />

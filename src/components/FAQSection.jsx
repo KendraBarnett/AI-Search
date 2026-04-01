@@ -5,13 +5,13 @@ export default function FAQSection({ faqs }) {
 
   return (
     <section className="my-12">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
+      <h2 className="text-2xl font-bold text-brand-black mb-6">Frequently Asked Questions</h2>
       <dl className="space-y-4">
         {faqs.map((faq, index) => (
-          <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
+          <div key={index} className="border border-brand-light rounded-lg overflow-hidden">
             <dt>
               <button
-                className="w-full text-left px-6 py-4 font-semibold text-gray-900 bg-gray-50 hover:bg-gray-100 transition-colors flex justify-between items-center cursor-pointer"
+                className="w-full text-left px-6 py-4 font-semibold text-brand-black bg-gray-50 hover:bg-gray-100 transition-colors flex justify-between items-center cursor-pointer"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 aria-expanded={openIndex === index}
               >
@@ -20,7 +20,7 @@ export default function FAQSection({ faqs }) {
               </button>
             </dt>
             {openIndex === index && (
-              <dd className="px-6 py-4 text-gray-700 leading-relaxed bg-white">
+              <dd className="px-6 py-4 text-brand-dark leading-relaxed bg-white">
                 {faq.answer}
               </dd>
             )}

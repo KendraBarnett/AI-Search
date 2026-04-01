@@ -34,8 +34,8 @@ export default function CaseStudy() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Case Study: AcmeCRM</h1>
-        <p className="text-gray-600 italic">Hypothetical model based on industry data</p>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">Case Study: AcmeCRM</h1>
+        <p className="text-brand-mid italic">Hypothetical model based on industry data</p>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -44,25 +44,25 @@ export default function CaseStudy() {
       </TLDRBlock>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Math Walkthrough</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Math Walkthrough</h2>
 
         <section className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">SEO Only — 2024 Baseline</h3>
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <div className="flex flex-wrap items-center justify-center gap-3 text-lg font-semibold text-gray-800 mb-4">
+          <h3 className="text-xl font-semibold text-brand-dark mb-3">SEO Only — 2024 Baseline</h3>
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <div className="flex flex-wrap items-center justify-center gap-3 text-lg font-semibold text-brand-dark mb-4">
               <span>45K impressions</span><span aria-hidden="true">→</span>
               <span>8.2% CTR</span><span aria-hidden="true">→</span>
               <span>3,690 clicks</span><span aria-hidden="true">→</span>
               <span>2.1% conversion</span><span aria-hidden="true">→</span>
-              <span className="text-teal-700">77 conversions</span>
+              <span className="text-brand-black">77 conversions</span>
             </div>
           </div>
         </section>
 
         <section className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3">SEO + AIO — 2026 Projection</h3>
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <p className="text-gray-700 leading-relaxed mb-4 key-answer">SERP clicks down to <strong>1,612</strong> (56% loss), BUT <strong>1,400 AI citations</strong> drive <strong>620 AI visits</strong> converting at <strong>8.9%</strong> = <strong>84 total conversions (+9%)</strong></p>
+          <h3 className="text-xl font-semibold text-brand-dark mb-3">SEO + AIO — 2026 Projection</h3>
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <p className="text-brand-dark leading-relaxed mb-4 key-answer">SERP clicks down to <strong>1,612</strong> (56% loss), BUT <strong>1,400 AI citations</strong> drive <strong>620 AI visits</strong> converting at <strong>8.9%</strong> = <strong>84 total conversions (+9%)</strong></p>
           </div>
         </section>
       </section>
@@ -85,37 +85,37 @@ export default function CaseStudy() {
       />
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Counterfactual — What Happens Without AIO</h2>
-        <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
-          <p className="text-gray-800 leading-relaxed mb-4 key-answer"><strong>Without AIO:</strong> The same 56% SERP click loss occurs, but with no AI traffic to compensate. Total conversions drop from 77 to approximately <strong>29 — a 62% decline</strong>.</p>
-          <p className="text-gray-700 leading-relaxed">The difference between investing in AIO and ignoring it is the difference between <strong>growing 9%</strong> and <strong>collapsing 62%</strong>. The SERP traffic decline happens regardless — the only question is whether AI-referred traffic fills the gap.</p>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Counterfactual — What Happens Without AIO</h2>
+        <div className="bg-gray-100 border-l-4 border-brand-black p-6 rounded-r-lg">
+          <p className="text-brand-dark leading-relaxed mb-4 key-answer"><strong>Without AIO:</strong> The same 56% SERP click loss occurs, but with no AI traffic to compensate. Total conversions drop from 77 to approximately <strong>29 — a 62% decline</strong>.</p>
+          <p className="text-brand-dark leading-relaxed">The difference between investing in AIO and ignoring it is the difference between <strong>growing 9%</strong> and <strong>collapsing 62%</strong>. The SERP traffic decline happens regardless — the only question is whether AI-referred traffic fills the gap.</p>
         </div>
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Why AI Traffic Converts Higher</h2>
-        <ul className="space-y-3 text-gray-700">
+        <h2 className="text-2xl font-bold text-brand-black mb-4">Why AI Traffic Converts Higher</h2>
+        <ul className="space-y-3 text-brand-dark">
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold">1.</span>
+            <span className="text-brand-dark font-bold">1.</span>
             <span><strong>Users arrive pre-qualified</strong> — they've already compared options through the AI conversation before clicking</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold">2.</span>
+            <span className="text-brand-dark font-bold">2.</span>
             <span><strong>AI recommendation acts like word-of-mouth</strong> — being cited by an AI carries implicit endorsement</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold">3.</span>
+            <span className="text-brand-dark font-bold">3.</span>
             <span><strong>Higher purchase intent</strong> — AI visitors are deeper in the funnel when they arrive</span>
           </li>
           <li className="flex items-start gap-3">
-            <span className="text-teal-600 font-bold">4.</span>
-            <span><strong>Consistent with Semrush's finding</strong> — <Link to="/ctr-crisis" className="text-teal-700 underline">4.4x conversion rate</Link> across 500+ high-value topics</span>
+            <span className="text-brand-dark font-bold">4.</span>
+            <span><strong>Consistent with Semrush's finding</strong> — <Link to="/ctr-crisis" className="text-brand-black underline">4.4x conversion rate</Link> across 500+ high-value topics</span>
           </li>
         </ul>
       </section>
 
-      <p className="text-gray-600 my-8">
-        For the underlying data behind this model, see <Link to="/ctr-crisis" className="text-teal-700 underline">the CTR crisis</Link>. For how to implement AIO strategy at your organization, read <Link to="/brand-strategy" className="text-teal-700 underline">what this means for brands</Link>.
+      <p className="text-brand-mid my-8">
+        For the underlying data behind this model, see <Link to="/ctr-crisis" className="text-brand-black underline">the CTR crisis</Link>. For how to implement AIO strategy at your organization, read <Link to="/brand-strategy" className="text-brand-black underline">what this means for brands</Link>.
       </p>
     </article>
   )
