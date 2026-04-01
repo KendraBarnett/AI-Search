@@ -45,10 +45,10 @@ export default function Home() {
       ]} />
 
       <header className="text-center py-12">
-        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl font-bold text-brand-black mb-6 leading-tight">
           Why Rankings Alone No Longer Predict Revenue
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+        <p className="text-xl text-brand-mid max-w-2xl mx-auto">
           A comprehensive analysis of how AI search is reshaping brand discovery — and what it means for your strategy.
         </p>
       </header>
@@ -58,7 +58,7 @@ export default function Home() {
       </TLDRBlock>
 
       <section className="my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">The Data at a Glance</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-6">The Data at a Glance</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <StatCard value="-61%" label="Organic CTR Drop" description="On queries with AI Overviews" source="Seer Interactive, 2025" variant="negative" />
           <StatCard value="4.4x" label="Higher Conversion Rate" description="AI search visitors vs traditional organic" source="Semrush, June 2025" variant="positive" />
@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       <section className="my-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Explore the Research</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-6">Explore the Research</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
             { path: '/traditional-search', title: 'How Traditional Search Works', desc: 'The crawl-index-rank-display model, SEO strategies, and the HubSpot case study.' },
@@ -81,9 +81,9 @@ export default function Home() {
             { path: '/brand-strategy', title: 'Brand Strategy', desc: 'The tri-modal ecosystem and new KPIs for the AI era.' },
             { path: '/glossary', title: 'Glossary', desc: 'Definitions of RAG, AIO, GEO, Entity Clarity, and more.' },
           ].map((item) => (
-            <Link key={item.path} to={item.path} className="block p-6 border border-gray-200 rounded-lg hover:border-teal-500 hover:shadow-md transition-all no-underline group bg-white">
-              <h3 className="text-lg font-semibold text-teal-800 group-hover:text-teal-600 mb-2">{item.title}</h3>
-              <p className="text-gray-600 text-sm">{item.desc}</p>
+            <Link key={item.path} to={item.path} className="block p-6 border border-brand-light rounded-lg hover:border-brand-accent hover:shadow-md transition-all no-underline group bg-white">
+              <h3 className="text-lg font-semibold text-brand-black group-hover:text-brand-dark mb-2">{item.title}</h3>
+              <p className="text-brand-mid text-sm">{item.desc}</p>
             </Link>
           ))}
         </div>

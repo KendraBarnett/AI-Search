@@ -34,7 +34,7 @@ export default function Glossary() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">AI Search Glossary</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">AI Search Glossary</h1>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -44,11 +44,11 @@ export default function Glossary() {
 
       <dl className="space-y-6 my-10">
         {glossaryTerms.map((item, index) => (
-          <div key={index} className="bg-white border border-gray-200 rounded-lg p-6">
-            <dt className="text-lg font-bold text-gray-900 mb-2">
+          <div key={index} className="bg-white border border-brand-light rounded-lg p-6">
+            <dt className="text-lg font-bold text-brand-black mb-2">
               <dfn>{item.term}</dfn>
             </dt>
-            <dd className="text-gray-700 leading-relaxed key-answer">
+            <dd className="text-brand-dark leading-relaxed key-answer">
               {item.definition}
             </dd>
           </div>

@@ -3,6 +3,7 @@ import SEOHead from '../components/SEOHead'
 import SchemaMarkup from '../components/SchemaMarkup'
 import TLDRBlock from '../components/TLDRBlock'
 import FAQSection from '../components/FAQSection'
+import SourceLink from '../components/SourceLink'
 import ComparisonTable from '../components/ComparisonTable'
 import Breadcrumbs from '../components/Breadcrumbs'
 import DateStamp from '../components/DateStamp'
@@ -51,7 +52,7 @@ export default function BrandStrategy() {
 
       <Breadcrumbs items={breadcrumbs} />
       <header>
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">What This Means for Brands</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-brand-black mb-4">What This Means for Brands</h1>
         <DateStamp published="2025-11-15" modified="2026-03-28" />
       </header>
 
@@ -60,25 +61,25 @@ export default function BrandStrategy() {
       </TLDRBlock>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">The Tri-Modal Ecosystem</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">The Tri-Modal Ecosystem</h2>
         <div className="space-y-4">
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Layer 1: Traditional Search</h3>
-            <p className="text-gray-700 leading-relaxed"><strong>Function:</strong> Navigation via blue links. <strong>Optimization:</strong> <Link to="/traditional-search" className="text-teal-700 underline">SEO</Link> — gets your content crawled, indexed, and discoverable. This remains the foundation. Without SEO, AI systems may never find your content to cite it.</p>
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <h3 className="text-xl font-semibold text-brand-dark mb-2">Layer 1: Traditional Search</h3>
+            <p className="text-brand-dark leading-relaxed"><strong>Function:</strong> Navigation via blue links. <strong>Optimization:</strong> <Link to="/traditional-search" className="text-brand-black underline">SEO</Link> — gets your content crawled, indexed, and discoverable. This remains the foundation. Without SEO, AI systems may never find your content to cite it.</p>
           </div>
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Layer 2: AI Overviews</h3>
-            <p className="text-gray-700 leading-relaxed"><strong>Function:</strong> Summarization layer on Google. <strong>Optimization:</strong> <Link to="/seo-vs-aio" className="text-teal-700 underline">AIO</Link> — unlocks visibility and citations in Google's AI-generated summaries. 92.36% of AI Overview responses link to at least one top-10 organic result, making SEO and AIO complementary.</p>
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <h3 className="text-xl font-semibold text-brand-dark mb-2">Layer 2: AI Overviews</h3>
+            <p className="text-brand-dark leading-relaxed"><strong>Function:</strong> Summarization layer on Google. <strong>Optimization:</strong> <Link to="/seo-vs-aio" className="text-brand-black underline">AIO</Link> — unlocks visibility and citations in Google's AI-generated summaries. 92.36% of AI Overview responses link to at least one top-10 organic result, making SEO and AIO complementary.</p>
           </div>
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Layer 3: AI Mode / Standalone AI</h3>
-            <p className="text-gray-700 leading-relaxed"><strong>Function:</strong> Complex reasoning via ChatGPT, Perplexity, Claude. <strong>Optimization:</strong> <dfn>GEO (Generative Engine Optimization)</dfn> — protects brand accuracy and ensures correct representation across AI platforms. Only <Link to="/comparison" className="text-teal-700 underline">11% of domains</Link> are cited by both ChatGPT and Perplexity.</p>
+          <div className="bg-white border border-brand-light rounded-lg p-6">
+            <h3 className="text-xl font-semibold text-brand-dark mb-2">Layer 3: AI Mode / Standalone AI</h3>
+            <p className="text-brand-dark leading-relaxed"><strong>Function:</strong> Complex reasoning via ChatGPT, Perplexity, Claude. <strong>Optimization:</strong> <dfn>GEO (Generative Engine Optimization)</dfn> — protects brand accuracy and ensures correct representation across AI platforms. Only <Link to="/comparison" className="text-brand-black underline">11% of domains</Link> are cited by both ChatGPT and Perplexity.</p>
           </div>
         </div>
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">New KPIs for the AI Era</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">New KPIs for the AI Era</h2>
         <ComparisonTable
           caption="Old Metrics vs New Metrics"
           headers={['Old Metric', 'New Metric']}
@@ -93,48 +94,48 @@ export default function BrandStrategy() {
       </section>
 
       <section className="my-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Getting Started — Practical Steps</h2>
+        <h2 className="text-2xl font-bold text-brand-black mb-4">Getting Started — Practical Steps</h2>
         <div className="space-y-4">
           <div className="flex items-start gap-4">
-            <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">1</span>
+            <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">1</span>
             <div>
-              <h3 className="font-semibold text-gray-800 mb-1">Audit Current AI Visibility</h3>
-              <p className="text-gray-700">Run your top 50 queries through ChatGPT, Perplexity, and Google AI Overviews. Document where you appear, how you're described, and where competitors are cited instead.</p>
+              <h3 className="font-semibold text-brand-dark mb-1">Audit Current AI Visibility</h3>
+              <p className="text-brand-dark">Run your top 50 queries through ChatGPT, Perplexity, and Google AI Overviews. Document where you appear, how you're described, and where competitors are cited instead.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">2</span>
+            <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">2</span>
             <div>
-              <h3 className="font-semibold text-gray-800 mb-1">Implement Structured Data</h3>
-              <p className="text-gray-700">Add FAQ, HowTo, Organization, Product, and <Link to="/glossary" className="text-teal-700 underline">speakable schema</Link> markup to your key pages. This helps AI systems understand and extract your content accurately.</p>
+              <h3 className="font-semibold text-brand-dark mb-1">Implement Structured Data</h3>
+              <p className="text-brand-dark">Add FAQ, HowTo, Organization, Product, and <Link to="/glossary" className="text-brand-black underline">speakable schema</Link> markup to your key pages. This helps AI systems understand and extract your content accurately.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">3</span>
+            <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">3</span>
             <div>
-              <h3 className="font-semibold text-gray-800 mb-1">Reformat Content</h3>
-              <p className="text-gray-700">Add TL;DR summaries to every page, lead with answers in every section, create extraction-ready passages with clear passage boundaries. Pages with FCP under 0.4s get <Link to="/ai-search" className="text-teal-700 underline">3x more AI citations</Link>.</p>
+              <h3 className="font-semibold text-brand-dark mb-1">Reformat Content</h3>
+              <p className="text-brand-dark">Add TL;DR summaries to every page, lead with answers in every section, create extraction-ready passages with clear passage boundaries. Pages with FCP under 0.4s get <Link to="/ai-search" className="text-brand-black underline">3x more AI citations</Link>.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">4</span>
+            <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">4</span>
             <div>
-              <h3 className="font-semibold text-gray-800 mb-1">Track New KPIs</h3>
-              <p className="text-gray-700">Set up tracking with Semrush AI Visibility, Ahrefs Brand Radar, or Passionfruit Labs. Monitor citation frequency, share of voice, and AI-referred conversion rate alongside traditional SEO metrics.</p>
+              <h3 className="font-semibold text-brand-dark mb-1">Track New KPIs</h3>
+              <p className="text-brand-dark">Set up tracking with <SourceLink name="Semrush" /> AI Visibility, <SourceLink name="Ahrefs" /> Brand Radar, or <SourceLink name="Passionfruit" /> Labs. Monitor citation frequency, share of voice, and AI-referred conversion rate alongside traditional SEO metrics.</p>
             </div>
           </div>
           <div className="flex items-start gap-4">
-            <span className="bg-teal-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">5</span>
+            <span className="bg-brand-accent text-brand-black rounded-full w-8 h-8 flex items-center justify-center font-bold shrink-0">5</span>
             <div>
-              <h3 className="font-semibold text-gray-800 mb-1">Monitor by Platform</h3>
-              <p className="text-gray-700">Optimization strategies differ for ChatGPT vs. Perplexity vs. Google AI Overviews. Only <Link to="/comparison" className="text-teal-700 underline">11% of domains</Link> are cited by both ChatGPT and Perplexity — track each platform independently.</p>
+              <h3 className="font-semibold text-brand-dark mb-1">Monitor by Platform</h3>
+              <p className="text-brand-dark">Optimization strategies differ for ChatGPT vs. Perplexity vs. Google AI Overviews. Only <Link to="/comparison" className="text-brand-black underline">11% of domains</Link> are cited by both ChatGPT and Perplexity — track each platform independently.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <p className="text-gray-600 my-8">
-        See the <Link to="/case-study" className="text-teal-700 underline">AcmeCRM case study</Link> for a concrete example of this strategy in action, or review the <Link to="/glossary" className="text-teal-700 underline">glossary</Link> for definitions of all key terms.
+      <p className="text-brand-mid my-8">
+        See the <Link to="/case-study" className="text-brand-black underline">AcmeCRM case study</Link> for a concrete example of this strategy in action, or review the <Link to="/glossary" className="text-brand-black underline">glossary</Link> for definitions of all key terms.
       </p>
 
       <FAQSection faqs={faqs} />
