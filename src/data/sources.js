@@ -1,30 +1,30 @@
 // Canonical source URLs for all research references used across the site.
-// Keys are short identifiers; each entry has a label (display text) and url.
+// All URLs verified via web search — no guessed/fabricated paths.
 
 export const sources = {
   seerInteractive: {
     label: 'Seer Interactive',
-    url: 'https://www.seerinteractive.com/insights/ai-overviews-impact-on-organic-ctr',
+    url: 'https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update',
   },
   semrush: {
     label: 'Semrush',
-    url: 'https://www.semrush.com/blog/ai-overviews/',
+    url: 'https://www.semrush.com/blog/semrush-ai-overviews-study/',
   },
   semrushConversions: {
     label: 'Semrush',
-    url: 'https://www.semrush.com/blog/ai-search-traffic-study/',
+    url: 'https://www.semrush.com/blog/ai-search-seo-traffic-study/',
   },
   semrushZeroClick: {
     label: 'Semrush',
-    url: 'https://www.semrush.com/blog/google-ai-mode-study/',
+    url: 'https://www.semrush.com/blog/google-ai-mode-seo-impact/',
   },
   passionfruit: {
     label: 'Passionfruit',
-    url: 'https://www.passionfruitlabs.com/blog/ai-search-research',
+    url: 'https://www.getpassionfruit.com/blog/are-ai-search-referrals-the-new-clicks',
   },
   eightOhTwo: {
     label: 'Eight Oh Two',
-    url: 'https://www.eightohtwocreative.com/insights/ai-search-consumer-behavior-2026',
+    url: 'https://eightohtwo.com/2026-ai-search-behavior-study/',
   },
   statCounter: {
     label: 'StatCounter',
@@ -32,15 +32,15 @@ export const sources = {
   },
   gartner: {
     label: 'Gartner',
-    url: 'https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026',
+    url: 'https://www.gartner.com/en/newsroom/press-releases/2024-02-19-gartner-predicts-search-engine-volume-will-drop-25-percent-by-2026-due-to-ai-chatbots-and-other-virtual-agents',
   },
   openAI: {
     label: 'OpenAI',
-    url: 'https://openai.com/index/chatgpt/',
+    url: 'https://openai.com/index/how-people-are-using-chatgpt/',
   },
   seRanking: {
     label: 'SE Ranking',
-    url: 'https://seranking.com/blog/ai-overviews-study/',
+    url: 'https://seranking.com/blog/ai-statistics/',
   },
   firstPageSage: {
     label: 'First Page Sage',
@@ -48,11 +48,11 @@ export const sources = {
   },
   pewResearch: {
     label: 'Pew Research',
-    url: 'https://www.pewresearch.org/internet/2025/01/21/how-americans-use-chatgpt/',
+    url: 'https://www.pewresearch.org/short-reads/2025/06/25/34-of-us-adults-have-used-chatgpt-about-double-the-share-in-2023/',
   },
   ahrefs: {
     label: 'Ahrefs',
-    url: 'https://ahrefs.com/blog/ai-overviews-study/',
+    url: 'https://ahrefs.com/blog/ai-overviews-reduce-clicks/',
   },
 }
 
